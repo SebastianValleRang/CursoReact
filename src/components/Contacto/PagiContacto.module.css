@@ -1,0 +1,72 @@
+p {
+  text-align: center;
+  color: black;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 120%;
+
+}
+
+.imagen {
+  align-content: center;
+  align-items: center;
+  
+  height:auto;
+}
+
+input{
+
+  text-align: "center";
+  justify-content: center;
+
+}
+
+.main {
+  background-image: url("../../images/FondoPaginaContacto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.texto {
+  color: white;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 120%;
+}
+
+.titulo {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 220%;
+  color: white;
+  -webkit-text-stroke: 1px white;
+}
+
+.margen {
+ margin-left: 10%;
+ margin-right: 10%;
+}
+
+@media (max-width: 900px) {
+  .imagen  {
+    max-width: 470px;
+  }
+
+  .titulo{
+    font-size: 150%;
+  }
+
+  .texto {
+    color: white;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 100%;
+  }
+
+  .margen {
+    margin-left: 5%;
+    margin-right:5%;
+   }
+}

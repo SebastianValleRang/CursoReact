@@ -1,0 +1,38 @@
+.contenedorDetalles {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    max-width: 400px;
+    width: 80%;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+    color: white;
+}
+
+.imagenPelicula {
+    border-radius: 15px;
+    color: white;
+}
+
+.detallesPelicula {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.primero {
+    margin-top: 0;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.pColor {
+    color: black;
+}
